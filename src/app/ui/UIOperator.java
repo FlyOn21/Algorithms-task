@@ -10,7 +10,7 @@ public class UIOperator {
         Scanner scanner = new Scanner(System.in);
         String inputPattern = "\\d\\.\\d{2}";
         Pattern pattern = Pattern.compile(inputPattern);
-        Matcher matcher = null;
+        Matcher matcher;
 
         String input = "";
         boolean isValid = false;
